@@ -1,0 +1,29 @@
+/* Make full height layout */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+/* App layout */
+.app-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main content grows */
+.app-content {
+  flex: 1;
+}
+
+/* Footer */
+.ems-footer {
+  background-color: #020617;
+  color: #d1d5db;
+  padding: 12px 0;
+}
+
+.ems-footer-text {
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+}
